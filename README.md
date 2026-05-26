@@ -14,9 +14,5 @@ Aqui está o gráfico gerado no Workflow Studio que valida as decisões de estoq
 
 ![Workflow Graph](./Sem%20título.png)
 
-## 🧠 Insights Adquiridos
-* **Centralização da Lógica:** Tirar a lógica de transição das funções Lambda e colocar no Step Functions deixa o código mais limpo e fácil de manter.
-* **Resiliência:** O uso de blocos de captura de erro (Catch) evita que falhas em uma etapa derrubem todo o sistema.
-* **Economia:** Integrações nativas (como salvar direto no DynamoDB ou enviar SNS) reduzem o uso de funções Lambda desnecessárias, diminuindo custos.
 
 ---
